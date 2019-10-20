@@ -1,4 +1,6 @@
 # Tranquility Base 
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Frjmco%2Ftb-gcp.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Frjmco%2Ftb-gcp?ref=badge_shield)
+
 
 Hi, and welcome to Tranquility Base - the open source multi-cloud infrastructure-as-code Landing Zone together with a self-service portal for automating the provisioning of a set of DevOps-ready reference architectures. 
 
@@ -168,3 +170,7 @@ terraform apply -var-file=input.tfvars
 1. After the bootstrap deployment, you may want to disable the `tb-bootstrap-builder` service account;
 1. An initial password for the `itop` user used to access the Cloud SQL instance on the `shared-operations-` project, this password is displayed on the `terraform-server` logs and should be reset as soon as possible;
 1. vault: root token should be surfaced from the vault terraform module to the root terraform module and changed as soon as possible.
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Frjmco%2Ftb-gcp.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Frjmco%2Ftb-gcp?ref=badge_large)
